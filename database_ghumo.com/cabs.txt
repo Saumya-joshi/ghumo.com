@@ -1,0 +1,1 @@
+CREATE TABLE cabs(cab_id int PRIMARY key AUTO_INCREMENT, cab_no varchar(10) not null, cab_name varchar(20) not null, crn_no int not null, driver_name varchar( 32) not null, driver_mob_no varchar(10) not null, pkup_dt_tm datetime not null);

@@ -1,0 +1,1 @@
+CREATE TABLE train_quota(quota_id int PRIMARY key, quota_name varchar(10));

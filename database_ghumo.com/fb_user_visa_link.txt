@@ -1,0 +1,1 @@
+CREATE table fb_user_visa_link(user_id int, visa_number varchar(20), PRIMARY key(user_id, visa_number), FOREIGN key(user_id) REFERENCES fb_users(id), FOREIGN key (visa_number) REFERENCES visa_details(visa_number));

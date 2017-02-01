@@ -1,0 +1,1 @@
+create TABLE running_days(day_id int PRIMARY key, day_name varchar(10));

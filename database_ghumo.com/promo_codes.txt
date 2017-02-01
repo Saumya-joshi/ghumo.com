@@ -1,0 +1,1 @@
+CREATE TABLE promo_codes(promo_code_id int AUTO_INCREMENT PRIMARY key, promo_Code varchar(10), amount_percent_off int, min_amt_req decimal(10, 2));

@@ -1,0 +1,2 @@
+CREATE table reg_user_passport_link(user_id int, passport_no varchar(20), PRIMARY key(user_id, passport_no), FOREIGN key(user_id) REFERENCES reg_user(user_id), FOREIGN key (passport_no) REFERENCES passport_details(passport_no));
+alter TABLE reg_user_passport_link add CONSTRAINT FOREIGN key(user_id) REFERENCES reg_user(user_id);

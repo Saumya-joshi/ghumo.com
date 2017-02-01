@@ -1,0 +1,1 @@
+CREATE TABLE applied_promo_code(wallet_id int, promo_code_id int, PRIMARY key(wallet_id, promo_code_id), FOREIGN KEY(wallet_id) REFERENCES my_wallet(wallet_id), FOREIGN key(promo_code_id) REFERENCES promo_codes(promo_code_id));

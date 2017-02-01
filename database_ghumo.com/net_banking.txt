@@ -1,0 +1,1 @@
+create table net_banking(net_banking_id int primary key auto_increment, user_id int(11) not null, login_password int(11) not null, transaction_password int(11) not null);

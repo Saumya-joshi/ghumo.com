@@ -1,0 +1,1 @@
+create table booking(booking_id int PRIMARY key AUTO_INCREMENT, description varchar(50) not null, price decimal(10, 2) not null);

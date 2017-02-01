@@ -1,0 +1,1 @@
+CREATE table hotel_star_rating(hotel_id int PRIMARY key, star_rating int(1) not null, FOREIGN key(hotel_id) REFERENCES hotels(hotel_id));

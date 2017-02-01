@@ -1,0 +1,1 @@
+CREATE table quota_seats(quota_id int PRIMARY KEY, seats int not null, FOREIGN KEY(quota_id) REFERENCES train_quota(quota_id));

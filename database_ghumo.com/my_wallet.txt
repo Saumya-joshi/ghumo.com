@@ -1,0 +1,1 @@
+CREATE TABLE my_wallet(wallet_id int AUTO_INCREMENT PRIMARY KEY, amount decimal(10, 2), credit decimal(10, 2), debit decimal(10, 2), status char(1), txn_id varchar(10), date_of_txn date);

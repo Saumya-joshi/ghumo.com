@@ -1,0 +1,1 @@
+create table room(room_id int primary key AUTO_INCREMENT, room_pricee decimal(5, 2) not null, room_type varchar(10) not null);

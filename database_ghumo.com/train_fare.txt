@@ -1,0 +1,1 @@
+CREATE table train_fare(train_id int PRIMARY KEY, fare decimal(3, 2) not null, class varchar(10), FOREIGN KEY(train_id) REFERENCES train(train_id));

@@ -1,0 +1,1 @@
+CREATE TABLE train_class_link(train_id int, class_id int, PRIMARY key(train_id, class_id), foreign key(train_id) REFERENCES train(train_id), FOREIGN key(class_id) REFERENCES train_class(class_id));

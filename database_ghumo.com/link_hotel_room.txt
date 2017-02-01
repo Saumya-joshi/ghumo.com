@@ -1,0 +1,1 @@
+CREATE table link_hotel_room(hotel_id int, room_id int, PRIMARY key(hotel_id, room_id), FOREIGN KEY(hotel_id) REFERENCES hotels(hotel_id), FOREIGN key(room_id) REFERENCES room(room_id));

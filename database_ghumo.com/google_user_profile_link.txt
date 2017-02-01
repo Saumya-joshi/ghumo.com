@@ -1,0 +1,1 @@
+CREATE TABLE google_user_profile_link(user_id int, profile_id int, primary key (user_id, profile_id), FOREIGN KEY(user_id) REFERENCES google_user(id), FOREIGN key(profile_id) REFERENCES profile_information(profile_id));

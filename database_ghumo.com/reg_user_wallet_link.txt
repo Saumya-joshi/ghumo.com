@@ -1,0 +1,1 @@
+CREATE table reg_user_link_wallet(user_id int, wallet_id int, PRIMARY key(user_id, wallet_id), FOREIGN key(user_id) REFERENCES reg_user(user_id), FOREIGN KEY(wallet_id) REFERENCES my_wallet(wallet_id));

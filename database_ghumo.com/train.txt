@@ -1,0 +1,1 @@
+CREATE table train(train_id int primary key AUTO_INCREMENT, train_name varchar(20) not null, train_no int(5) not null, dep_date date not null, arr_date date not null, dep_time varchar(10) not null, arr_time varchar(10) not null);

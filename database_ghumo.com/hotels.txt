@@ -1,0 +1,14 @@
+CREATE TABLE hotels(hotel_id int primary key auto_increment, hotel_name varchar(10) not null, main_location varchar(15) not null, address varchar(50) not null, no_of_rooms int(2) not null);
+
+ALTER TABLE `hotels` ADD `check_in` DATE NOT NULL AFTER `address`, ADD `check_out` DATE NOT NULL AFTER `check_in`;
+
+ALTER TABLE `hotels` CHANGE `hotel_name` `hotel_name` VARCHAR(30) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL;
+
+INSERT INTO `hotels` (`hotel_id`, `hotel_name`, `main_location`, `address`, `check_in`, `check_out`, `no_of_rooms`) VALUES ('1', 'Mohan Hotel', 'Lucknow', 'Charbagh', '2016-02-05', '2016-02-29', '150');
+
+ALTER TABLE `hotels` ADD `price` DECIMAL(4, 2) NOT NULL AFTER `no_of_rooms`;
+ALTER TABLE `hotels` CHANGE `price` `price` DECIMAL(6,2) NOT NULL;
+
+ALTER TABLE `hotels` ADD `star_rating` INT(1) NOT NULL AFTER `price`;
+
+

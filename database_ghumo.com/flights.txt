@@ -1,0 +1,1 @@
+CREATE table flights(flight_id int primary key auto_increment, airline_number varchar(10) not null, airline_name varchar(20)not null, departure_city varchar(20) not null, arrival_city varchar(20) not null, departure_date date not null, arrival_time varchar(10) not null, departure_time varchar(10) not null, seats int(4) not null);

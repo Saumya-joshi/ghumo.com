@@ -1,0 +1,1 @@
+CREATE table train_running_days(train_id int, day_id int, primary KEY(train_id, day_id), foreign key(train_id) REFERENCES train(train_id), FOREIGN KEY(day_id) REFERENCES running_days(day_id));
